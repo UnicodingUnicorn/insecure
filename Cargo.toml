@@ -1,0 +1,18 @@
+[package]
+name = "insecure2"
+version = "0.1.0"
+authors = ["orcas <daniel@makerforce.io>"]
+edition = "2018"
+
+[dependencies]
+handlebars = "2.0"
+iron = "0.6.0"
+lazy_static = "1.4.0"
+params = "0.8.0"
+router = "0.6.0"
+secure-session = "0.3.1"
+toml = "0.5.3"
+typemap = "0.3.3"
+rusqlite = { version = "0.20.0", features = [ "bundled" ] }
+serde = { version = "1.0", features = [ "derive" ] }
+serde_json = "1.0"
